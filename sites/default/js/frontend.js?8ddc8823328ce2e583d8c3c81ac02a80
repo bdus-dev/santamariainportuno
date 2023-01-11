@@ -1,0 +1,9 @@
+(function(){
+	$('#searchForm').submit(function(){
+		if($('#search').val() != '' ){
+			window.location = './search:' + $('#search').val();
+		}
+	});
+	
+	$('a.fancybox').fancybox();
+})();
